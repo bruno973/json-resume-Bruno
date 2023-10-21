@@ -1,0 +1,147 @@
+{
+    "basics": {
+        "name": "BRUNO SOSIN",
+        "label": "CONSULTANT E-BUSINESS ET DÉVELOPPEUR WEB",
+        "picture": "avatar",
+        "email": "bruno.sosin@beatitude973.fr",
+        "phone": "+594694090422",
+        "website": "https://github.com/bruno973",
+        "summary": "Passionné de technologies et de voyages... orienter vers une formation dans le développement web.",
+        "location": {
+            "address": "33 avenue des hortensias",
+            "postalCode": "97355 GF",
+            "city": "Macouria",
+            "countryCode": "French Guiana"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Bruno Sosin",
+                "url": ""
+            },
+            {
+                "network": "Github",
+                "username": "Bruno973",
+                "url": "https://github.com/bruno973"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Matériel et Services Guyane",
+            "position": "Webmaster",
+            "startDate": "2021-04",
+            "endDate": "2021-07",
+            "summary": "Intégration et enrichissement des données produits...",
+            "highlights": [
+                "Automatisation de procédure et de processus métier...",
+                "Tri et enrichissement de la donnée pour plus de 60000 références produits",
+                "Encadrement et suivi de l'avancement du prestataire choisi..."
+            ]
+        },
+        {
+            "company": "Freelance",
+            "position": "Manual QA tester",
+            "startDate": "2020-02",
+            "endDate": "2021-03",
+            "summary": "QA tester pour la société Applause GBMH.",
+            "highlights": [
+                "Tests manuels d'applications...",
+                "Plus de 50 rapports de bugs soumis ayant été évalués 'utiles'"
+            ]
+        },
+        {
+            "company": "Freelance",
+            "position": "Télé conseiller",
+            "startDate": "2019-12",
+            "endDate": "2020-03",
+            "summary": "Réception et traitement d'appels clients...",
+            "highlights": [
+                "Utilisation de Salesforce pour le suivi et traitement d'appels",
+                "Rédaction d'emails de suivi post-contact"
+            ]
+        },
+        {
+            "company": "Freelance",
+            "position": "Organisateur d'événements et séminaires",
+            "startDate": "2016-01",
+            "endDate": "2020-03",
+            "summary": "Organisation de séminaires et de déplacements...",
+            "highlights": [
+                "Organisation d'un séminaire croisière en mer baltique...",
+                "Gestion d'une campagne marketing Google Ads et Facebook Ads...",
+                "Organisation de 4 voyages à l'international avec plus de 30 participants"
+            ]
+        },
+        {
+            "company": "Forever Living Products",
+            "position": "Responsable d'agence Guyane",
+            "startDate": "2010-06",
+            "endDate": "2015-12",
+            "summary": "Gestion de tous les aspects d'une agence commerciale...",
+            "highlights": [
+                "Organisation d'un événement rassemblant plus de 300 personnes...",
+                "Réalisation d'un rapport statistique complet...",
+                "Négociation de partenariats..."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ecole O'clock",
+            "area": "Développement informatique",
+            "studyType": "Titre professionnel développeur web et web mobile",
+            "startDate": "2020",
+            "endDate": "2020",
+            "url": "https://oclock.io/",
+            "courses": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "NodeJS",
+                "PostgresSQL",
+                "TDD avec Mochajs",
+                "SGBD noSQL pour le cache",
+                "Environnement de prod avec AWS",
+                "Validation des données avec Javascript",
+                "Explorer les SGBD noSQL"
+            ]
+        },
+        {
+            "institution": "Université Louis lumière Lyon 2",
+            "area": "Science politique et science économique",
+            "studyType": "Licence 1ère année",
+            "startDate": "2006",
+            "endDate": "2007"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Front End Web Development",
+            "level": "Junior",
+            "keywords": ["HTML", "CSS", "Javascript", "React"]
+        },
+        {
+            "name": "Back End Web Development",
+            "level": "Junior",
+            "keywords": ["NodeJS", "Joi js", "ExpressJS", "Architecture REST", "PostgresSQL", "Mochajs", "AWS"]
+        },
+        {
+            "name": "Marketing Digital",
+            "level": "Intermediate",
+            "keywords": ["Google Ads", "Facebook Ads", "SEO", "Affiliation", "Community Management", "Google Analytics"]
+        }
+    ],
+    "interests": [
+        {
+            "name": "Voyage"
+        },
+        {
+            "name": "Lecture"
+        },
+        {
+            "name": "Entrepreneuriat"
+        }
+    ],
+    "references": []
+}
