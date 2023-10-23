@@ -1,17 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
-@charset "utf-8";
-@-webkit-viewport   { width: device-width; }
-@-moz-viewport      { width: device-width; }
-@-ms-viewport       { width: device-width; }
-@-o-viewport        { width: device-width; }
-@viewport           { width: device-width; }
 
-body{
-  font-family: 'Open Sans', Arial, Tahoma;
-  font-weight: 400;
-  color: #363636;
-  background: #334960;
-}
 blockquote {
   font-size: 1em;
 }

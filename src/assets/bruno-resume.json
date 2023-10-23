@@ -1,16 +1,16 @@
 {
     "basics": {
         "name": "BRUNO SOSIN",
-        "label": "CONSULTANT E-BUSINESS ET DÉVELOPPEUR WEB",
+        "label": "DÉVELOPPEUR WEB et POWER PLATFORM",
         "picture": "avatar",
         "email": "bruno.sosin@beatitude973.fr",
         "phone": "+594694090422",
         "website": "https://github.com/bruno973",
         "summary": "Passionné de technologies et de voyages, lors de mon premier emploi il y a 10 ans en tant que responsable d'agence, j'ai travaillé avec de nombreux indépendants.Cette expérience m'a permise d'affiner ma vision du travail et à faire le lien avec mes passions de toujours. J'ai réalisé dans cette optique des sites internet et des campagnes de marketing digitales qui m'ont amenés à prendre la décision de me professionnaliser en 2019 et à m'orienter vers une formation dans le développement web.",
         "location": {
-            "address": "33 avenue des hortensias",
-            "postalCode": "97355 GF",
-            "city": "Macouria",
+            "address": "Impasse ,Saramaka",
+            "postalCode": "97300 GF",
+            "city": "Cayenne",
             "countryCode": "French Guiana"
         },
         "profiles": [
@@ -131,7 +131,13 @@
             "name": "Marketing Digital",
             "level": "Intermediate",
             "keywords": ["Google Ads", "Facebook Ads", "SEO", "Affiliation", "Community Management", "Google Analytics"]
+        },
+        {
+            "name": "Business Intelligence, Low Code et RPA",
+            "level": "Intermediate",
+            "keywords": ["Power Automate", "Power Automate Desktop", "Power Apps", "Power Bi", "DAX", "Power Query"]
         }
+        
     ],
     "interests": [
         {
