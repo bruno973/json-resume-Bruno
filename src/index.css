@@ -7,3 +7,127 @@ body{
   color: #363636;
   background: #334960;
 }
+
+@media print {
+   
+    body {
+  font-size: .90em;
+  -webkit-print-color-adjust: exact;
+print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+#text-header:after {
+    margin-top: 
+    5px;
+}
+.list-group {
+    margin-bottom: 0;
+}
+.job .details {
+    padding: 5px;
+}
+
+.box {
+ padding-bottom: -10%;
+ margin-bottom:-10%;
+}
+.box:first-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+  font-size: 10px;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 0px 15px;
+}
+
+
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+ .contact-item {
+   height: 70%;
+   
+ }
+
+  .hobby {
+    display: none;
+ }
+
+ 
+}

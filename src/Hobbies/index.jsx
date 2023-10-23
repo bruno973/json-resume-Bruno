@@ -5,7 +5,7 @@ import { useState } from 'react'
 function Hobbies({ hobbies }) {
     
     return (
-        <div className="box">
+        <div className="hobby box">
           <h2><i className="fas fa-heart ico"></i> Hobbies</h2>
           {hobbies.map((hobbie) => {
             return (
