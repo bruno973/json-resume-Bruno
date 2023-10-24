@@ -50,7 +50,7 @@
             "endDate": "2021-10",
             "summary": "Intégration et enrichissement des données produits pour préparer le lancement d'un e-commerce...",
             "highlights": [
-                "Automatisation de procédure et de processus métier via des outils low-code et RPA...",
+                "Automatisation de procédure et de processus métier avec Power Automate et Power Apps et des scripts Power Shell",
                 "Création de scripts d'enrichissement de données produits en nodeJS via Pupeteer",
                 "Tri et enrichissement de la donnée pour plus de 60000 références produits",
                 "Encadrement et suivi de l'avancement du prestataire e-commerce choisi..."

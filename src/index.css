@@ -20,6 +20,13 @@ print-color-adjust: exact;
   display: none;
 }
 
+
+.showOnPrint {
+  visibility: visible;
+}
+
+
+
 a[href]:after {
   content: none !important;
 }
