@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import qrCode from "../assets/QR_image.png"
+import qrCode from "/src/assets/QR_image.png"
 
 function About({ aboutme }) {
     return (
