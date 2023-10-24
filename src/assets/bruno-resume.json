@@ -1,7 +1,7 @@
 {
     "basics": {
-        "name": "BRUNO SOSIN",
-        "label": "DÉVELOPPEUR WEB et POWER PLATFORM",
+        "name": "Bruno Sosin",
+        "label": "Consultant Power Platform, Power Bi, Power Automate",
         "picture": "avatar",
         "email": "bruno.sosin@beatitude973.fr",
         "phone": "+594694090422",
@@ -17,7 +17,7 @@
             {
                 "network": "LinkedIn",
                 "username": "Bruno Sosin",
-                "url": ""
+                "url": "https://www.linkedin.com/in/sosin-bruno/"
             },
             {
                 "network": "Github",
@@ -27,19 +27,37 @@
         ]
     },
     "work": [
-        {
+        {   
+            "id":"matserv2",
             "company": "Matériel et Services Guyane",
-            "position": "Webmaster",
-            "startDate": "2021-04",
-            "endDate": "2021-07",
-            "summary": "Intégration et enrichissement des données produits...",
+            "position": "Consultant en système d'information",
+            "startDate": "2021-10",
+            "endDate": "active",
+            "summary": "Etudes, amélioration et évolution des process et systèmes d'informations existants...",
             "highlights": [
-                "Automatisation de procédure et de processus métier...",
-                "Tri et enrichissement de la donnée pour plus de 60000 références produits",
-                "Encadrement et suivi de l'avancement du prestataire choisi..."
+                "Refactorisation des process d'extractions de la données commerciale par le biais de Dataflow de type ETL afin de faciliter l'accès à la donnée aux différents services.",
+                "Création d'un tableau de bord e-commerce ",
+                "Création de tableau de bord sous Power Bi pour les ventes, le recouvrement, et les achats",
+                "Création d'un processus de numérisation des factures et OCR lié à un algorithme qui classe les factures et les envoi à dates automatiquement aux clients",
+                "Accompagnement et formation d'un développeur junior sur la suite Power Platform"
             ]
         },
         {
+            "id":"matserv1",
+            "company": "Matériel et Services Guyane",
+            "position": "Webmaster",
+            "startDate": "2021-04",
+            "endDate": "2021-10",
+            "summary": "Intégration et enrichissement des données produits pour préparer le lancement d'un e-commerce...",
+            "highlights": [
+                "Automatisation de procédure et de processus métier via des outils low-code et RPA...",
+                "Création de scripts d'enrichissement de données produits en nodeJS via Pupeteer",
+                "Tri et enrichissement de la donnée pour plus de 60000 références produits",
+                "Encadrement et suivi de l'avancement du prestataire e-commerce choisi..."
+            ]
+        },
+        {
+            "id":"applause1",
             "company": "Freelance",
             "position": "Manual QA tester",
             "startDate": "2020-02",
@@ -51,6 +69,7 @@
             ]
         },
         {
+            "id":"everg2",
             "company": "Freelance",
             "position": "Télé conseiller",
             "startDate": "2019-12",
@@ -62,18 +81,20 @@
             ]
         },
         {
+            "id":"everg1",
             "company": "Freelance",
             "position": "Organisateur d'événements et séminaires",
             "startDate": "2016-01",
             "endDate": "2020-03",
             "summary": "Organisation de séminaires et de déplacements...",
             "highlights": [
-                "Organisation d'un séminaire croisière en mer baltique...",
-                "Gestion d'une campagne marketing Google Ads et Facebook Ads...",
+                "Organisation d'un séminaire croisière en mer baltique réunissant plus de 120 professionels...",
+                "Gestion de campagnes marketing Google Ads et Facebook Ads...",
                 "Organisation de 4 voyages à l'international avec plus de 30 participants"
             ]
         },
         {
+            "id":"flp1",
             "company": "Forever Living Products",
             "position": "Responsable d'agence Guyane",
             "startDate": "2010-06",
@@ -81,8 +102,8 @@
             "summary": "Gestion de tous les aspects d'une agence commerciale...",
             "highlights": [
                 "Organisation d'un événement rassemblant plus de 300 personnes...",
-                "Réalisation d'un rapport statistique complet...",
-                "Négociation de partenariats..."
+                "Réalisation de rapports statistique complet sur les ventes régionales...",
+                "Négociations de partenariats..."
             ]
         }
     ],

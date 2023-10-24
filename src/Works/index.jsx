@@ -10,7 +10,7 @@ function Works({ works }) {
   {
     works.map((work) => {
         return (
-        <div className="job clearfix">
+        <div className={work.id === "applause1" || work.id === "everg2" ? "job clearfix" + " hideWorkExp" : "job clearfix"}>
     <div className="row">
       <div className="details">
         <div className="where">

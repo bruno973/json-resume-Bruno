@@ -16,6 +16,10 @@ body{
 print-color-adjust: exact;
 }
 
+.hideWorkExp {
+  display: none;
+}
+
 a[href]:after {
   content: none !important;
 }
