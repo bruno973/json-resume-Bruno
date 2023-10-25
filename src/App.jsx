@@ -9,7 +9,7 @@ import Hobbies from "./Hobbies"
 import Works from "./Works"
 import About from "./About"
 
-import qrCode from "./assets/QR_image.png"
+import qrCode from "./assets/QR_Image.png"
 
 function App() {
  
