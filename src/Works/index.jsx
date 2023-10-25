@@ -3,6 +3,11 @@ import { useState } from 'react'
 
 function Works({ works }) {
     console.log(works)
+    let todayDate = new Date(Date.now())
+    const moisFrancais = [
+      "Janvier", "Février", "Mars", "Avril", "Mai", "Juin",
+      "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
+  ];
     return (
       
 <div className="box">
@@ -22,7 +27,7 @@ function Works({ works }) {
         <div className="description">
         {work.summary ? work.summary : "resumé du poste"}
         </div>
-        <div className="year">{work.startDate} – {work.endDate}</div>
+        <div className="year">{moisFrancais[new Date(work.startDate).getMonth()] + " " + new Date(work.startDate).getFullYear()} - {work.endDate === "active" ? moisFrancais[todayDate.getMonth() - 1] + " " + todayDate.getFullYear() : moisFrancais[new Date(work.endDate).getMonth() - 1] + " " + new Date(work.endDate).getFullYear()}</div>
       </div>
     </div>
     <div className="row">
