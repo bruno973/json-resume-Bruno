@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import qrCode from "/src/assets/QR_image.png"
 
-function About({ aboutme }) {
+
+function About({ aboutme,qr }) {
     return (
        
         <div className="row">
           <div className="col-xs-12">
-            <div><img src={qrCode} alt="Mon QR Code" className="qr-code showOnPrint" /></div>
+            <div><img src={qr} alt="Mon QR Code" className="qr-code showOnPrint" /></div>
             <div id="photo-header" className="text-center">
             
               <div id="photo">

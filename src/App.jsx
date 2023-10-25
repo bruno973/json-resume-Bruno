@@ -9,13 +9,15 @@ import Hobbies from "./Hobbies"
 import Works from "./Works"
 import About from "./About"
 
+import qrCode from "./assets/QR_image.png"
+
 function App() {
  
   return (
     <>
       
     <div className="container">
-      <About aboutme={resumeData.basics}></About>
+      <About aboutme={resumeData.basics} qr={qrCode}></About>
       <div className='row'>
       <div className="col-xs-12 col-sm-7">
       <div className="box">
