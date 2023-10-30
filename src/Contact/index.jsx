@@ -13,7 +13,7 @@ function Contact({ contact }) {
         </div>
         <div className="contact-item">
           <div className="icon pull-left text-center"><span className="fas fa-phone fa-fw"></span></div>
-          <div className="title only pull-right">+594694090422</div>
+          <div className="title only pull-right"><a href={"tel:".concat(contact.phone)}>{contact.phone.replace("+594","0")}</a></div>
         </div>
         <div className="contact-item">
           <div className="icon pull-left text-center"><span className="fas fa-envelope fa-fw"></span></div>
@@ -21,7 +21,7 @@ function Contact({ contact }) {
         </div>
         <div className="contact-item">
           <div className="icon pull-left text-center"><span className="fas fa-globe fa-fw"></span></div>
-          <div className="title only pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;bruno973" target="_blank">https:&#x2F;&#x2F;github.com&#x2F;bruno973</a></div>
+          <div className="title only pull-right"><a href="https://tech.beatitude973.fr/" target="_blank">https://tech.beatitude973.fr/</a></div>
         </div>
         <div className="contact-item">
           <div className="icon pull-left text-center"><span className="fab fa-linkedin fa-fw"></span></div>
