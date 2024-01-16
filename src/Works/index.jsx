@@ -2,8 +2,8 @@ import { useState } from 'react'
 
 
 function Works({ works }) {
-    console.log(works)
-    let todayDate = new Date(Date.now())
+    // console.log(works)
+    let todayDate = new Date()
     const moisFrancais = [
       "Janvier", "Février", "Mars", "Avril", "Mai", "Juin",
       "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
@@ -27,7 +27,18 @@ function Works({ works }) {
         <div className="description">
         {work.summary ? work.summary : "resumé du poste"}
         </div>
-        <div className="year">{moisFrancais[new Date(work.startDate).getMonth()] + " " + new Date(work.startDate).getFullYear()} - {work.endDate === "active" ? moisFrancais[todayDate.getMonth() - 1] + " " + todayDate.getFullYear() : moisFrancais[new Date(work.endDate).getMonth() - 1] + " " + new Date(work.endDate).getFullYear()}</div>
+        <div className="year">
+    {moisFrancais[new Date(work.startDate).getMonth()] + " " + new Date(work.startDate).getFullYear()} - 
+    {work.endDate === "active" ? 
+        (() => {
+            const adjustedDate = new Date();
+            adjustedDate.setMonth(adjustedDate.getMonth() - 1);
+            return moisFrancais[adjustedDate.getMonth()] + " " + adjustedDate.getFullYear();
+        })() : 
+        moisFrancais[new Date(work.endDate).getMonth()] + " " + new Date(work.endDate).getFullYear()
+    }
+</div>
+
       </div>
     </div>
     <div className="row">
