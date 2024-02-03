@@ -1,16 +1,18 @@
 
-import { useState } from 'react'
-
+import { useState,useContext } from 'react'
+import { LanguageContext } from '../App';
 
 function Education({ educationData }) {
+
+  let { language, setLanguage } = useContext(LanguageContext);
     
     return (
         <div className="box">
-          <h2><i className="fas fa-university ico"></i> Formation</h2>
+          <h2><i className="fas fa-university ico"></i>{language === "fr" ? "Formation" : "education"}</h2>
           <ul id="education" className="clearfix">
-            {educationData.map((school) => {
+            {educationData.map((school,index) => {
                 return (
-                    <li>
+                    <li key={index}>
               <div className="year pull-left">{school.startDate} {school.endDate}</div>
               <div className="description pull-right">
                 <h3>{school.institution}</h3>
@@ -24,8 +26,8 @@ function Education({ educationData }) {
                   
                   {
                     school.courses ? 
-                    <div>Compétences acquises<ul className="list-group">
-                    {school.courses.map((course) => {return ( <li className="list-group-item">{course}</li>)})}
+                    <div>{language === "fr" ? "Compétences acquises" : "Acquired skills"}<ul className="list-group">
+                    {school.courses.map((course,indexLi) => {return ( <li key={indexLi} className="list-group-item">{course}</li>)})}
                   </ul></div> : null
                   }
                   

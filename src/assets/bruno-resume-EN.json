@@ -1,0 +1,179 @@
+{
+    "basics": {
+        "name": "Bruno Sosin",
+        "label": "Power Platform Consultant, Power Bi, Power Automate",
+        "picture": "avatar",
+        "email": "bruno.sosin@beattiude973.fr",
+        "phone": "+594694090422",
+        "website": "https://tech.beatitude973.fr/",
+        "summary": "Passionate about technology and travel, in my first job 10 years ago as a branch manager, I worked with many freelancers. This experience refined my vision of work and connected it with my lifelong passions. With this in mind, I created websites and digital marketing campaigns that led me to decide to professionalize in 2019 and to pursue training in web development.",
+        "location": {
+            "address": "impasse saramaka",
+            "postalCode": "97300 GF",
+            "city": "Cayenne",
+            "countryCode": "French Guiana"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Bruno Sosin",
+                "url": "https://www.linkedin.com/in/sosin-bruno/"
+            },
+            {
+                "network": "Github",
+                "username": "Bruno973",
+                "url": "https://github.com/bruno973"
+            }
+        ]
+    },
+    "work": [
+        {
+            "id": "matserv2",
+            "company": "Matériel et Services Guyane",
+            "position": "Information System Consultant",
+            "startDate": "2021-10",
+            "endDate": "active",
+            "city": "Cayenne",
+            "summary": "Studies, improvement, and evolution of existing processes and information systems...",
+            "highlights": [
+                "Refactoring of commercial data extraction processes through ETL Dataflows to facilitate data access to various departments.",
+                "Creation of an e-commerce dashboard",
+                "Creation of Power Bi dashboards for sales, collections, and purchases",
+                "Creation of a digitization and OCR process linked to an algorithm that classifies invoices and automatically sends them to clients on scheduled dates",
+                "Mentoring and training of a junior developer on the Power Platform suite"
+            ]
+        },
+        {
+            "id": "matserv1",
+            "company": "Matériel et Services Guyane",
+            "position": "Webmaster",
+            "startDate": "2021-04",
+            "city": "Cayenne",
+            "endDate": "2021-10",
+            "summary": "Integration and enrichment of product data to prepare for the launch of an e-commerce...",
+            "highlights": [
+                "Automation of business procedures and processes with Power Automate, Power Apps, and Power Shell scripts",
+                "Creation of product data enrichment scripts in nodeJS via Puppeteer",
+                "Sorting and enriching data for more than 60,000 product references",
+                "Supervision and progress monitoring of the chosen e-commerce provider..."
+            ]
+        },
+        {
+            "id": "applause1",
+            "company": "Freelance",
+            "position": "Manual QA tester",
+            "city": "Remote",
+            "startDate": "2020-02",
+            "endDate": "2021-03",
+            "summary": "QA tester for Applause GBMH.",
+            "highlights": [
+                "Manual testing of applications...",
+                "Submission of over 50 bug reports rated as 'useful'"
+            ]
+        },
+        {
+            "id": "everg2",
+            "company": "Freelance",
+            "position": "Tele-advisor",
+            "city": "Remote",
+            "startDate": "2019-12",
+            "endDate": "2020-03",
+            "summary": "Reception and processing of customer calls...",
+            "highlights": [
+                "Use of Salesforce for call tracking and processing",
+                "Writing post-contact follow-up emails"
+            ]
+        },
+        {
+            "id": "everg1",
+            "company": "Freelance",
+            "position": "Event and Seminar Organizer",
+            "city": "Cayenne",
+            "startDate": "2016-01",
+            "endDate": "2020-03",
+            "summary": "Organization of seminars and travels...",
+            "highlights": [
+                "Organization of a Baltic Sea cruise seminar gathering more than 120 professionals...",
+                "Management of Google Ads and Facebook Ads marketing campaigns...",
+                "Organization of 4 international trips with more than 30 participants"
+            ]
+        },
+        {
+            "id": "flp1",
+            "company": "Forever Living Products",
+            "position": "Branch Manager Guyana",
+            "city": "Cayenne",
+            "startDate": "2010-06",
+            "endDate": "2015-12",
+            "summary": "Management of all aspects of a commercial branch...",
+            "highlights": [
+                "Organization of an event gathering more than 300 people...",
+                "Completion of comprehensive regional sales statistical reports...",
+                "Negotiation of partnerships..."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ecole O'clock",
+            "area": "Computer Development",
+            "studyType": "Professional title in web and mobile web development",
+            "startDate": "2020",
+            "endDate": "2020",
+            "url": "https://oclock.io/",
+            "courses": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "NodeJS",
+                "PostgreSQL",
+                "TDD with Mochajs",
+                "noSQL DBMS for caching",
+                "Production environment with AWS",
+                "Data validation with Javascript",
+                "Exploring noSQL DBMS"
+            ]
+        },
+        {
+            "institution": "Université Louis Lumière Lyon 2",
+            "area": "Political Science and Economic Science",
+            "studyType": "1st year Bachelor's degree",
+            "startDate": "2006",
+            "endDate": "2007"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Front End Web Development",
+            "level": "Junior",
+            "keywords": ["HTML", "CSS", "Javascript", "React"]
+        },
+        {
+            "name": "Back End Web Development",
+            "level": "Junior",
+            "keywords": ["NodeJS", "Joi js", "ExpressJS", "REST Architecture", "PostgreSQL", "Mochajs", "AWS"]
+        },
+        {
+            "name": "Digital Marketing",
+            "level": "Intermediate",
+            "keywords": ["Google Ads", "Facebook Ads", "SEO", "Affiliate Marketing", "Community Management", "Google Analytics"]
+        },
+        {
+            "name": "Business Intelligence, Low Code, and RPA",
+            "level": "Intermediate",
+            "keywords": ["Power Automate", "Power Automate Desktop", "Power Apps", "Power Bi", "DAX", "Power Query"]
+        }
+    ],
+    "interests": [
+        {
+            "name": "Travel"
+        },
+        {
+            "name": "Reading"
+        },
+        {
+            "name": "Entrepreneurship"
+        }
+    ],
+    "references": []
+}

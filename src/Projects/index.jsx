@@ -1,10 +1,12 @@
-import { useState } from 'react'
-
+import { useState, useContext } from 'react'
+import { LanguageContext } from '../App';
 
 function Projects({ projects }) {
+
+  let { language, setLanguage } = useContext(LanguageContext);
     return (
       <div className="box">
-      <h2><i className= "fas fa-code-branch ico"></i> Projets</h2>
+      <h2><i className= "fas fa-code-branch ico"></i> {language === "fr" ? "Projets" : "Projects"}</h2>
       <ul className="list-group">
         <li className="list-group-item">
           <span sx="font-weight:bold">Globe Trotter</span>: Notre projet de fin de formation développé avec 3 camarades de classes en autonomie. L'objectif était d'appliquer un maximum de concepts étudiés en formation. Cet outil permet à chaque personne se sentant l'âme d'un Travel Leader, d'organiser le voyage de ses rêves par lui-même et de le partager avec sa famille, amis, collègues de travail qui voyageront avec lui.

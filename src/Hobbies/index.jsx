@@ -7,9 +7,9 @@ function Hobbies({ hobbies }) {
     return (
         <div className="hobby box">
           <h2><i className="fas fa-heart ico"></i> Hobbies</h2>
-          {hobbies.map((hobbie) => {
+          {hobbies.map((hobbie,index) => {
             return (
-                <div className="interests clearfix">
+                <div key={index} className="interests clearfix">
             <div className="item-interests">
                 {hobbie.name}
             </div>

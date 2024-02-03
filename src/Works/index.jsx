@@ -1,21 +1,28 @@
-import { useState } from 'react'
-
+import { useState,useContext } from 'react'
+import { LanguageContext } from '../App';
 
 function Works({ works }) {
     // console.log(works)
+    const {language,setLanguage} = useContext(LanguageContext)
     let todayDate = new Date()
     const moisFrancais = [
       "Janvier", "Février", "Mars", "Avril", "Mai", "Juin",
       "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
   ];
+
+  const moisAnglais = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+];
+
     return (
       
 <div className="box">
-<h2><i className= "fas fa-suitcase ico"></i>Expériences professionnelles</h2>
+<h2><i className= "fas fa-suitcase ico"></i>{language === "fr" ? "Expériences professionnelles" : "Professionals Experiences"}</h2>
   {
-    works.map((work) => {
+    works.map((work,index) => {
         return (
-        <div className={work.id === "applause1" || work.id === "everg2" ? "job clearfix" + " hideWorkExp" : "job clearfix"}>
+        <div key={index} className={work.id === "applause1" || work.id === "everg2" ? "job clearfix" + " hideWorkExp" : "job clearfix"}>
     <div className="row">
       <div className="details">
         <div className="where">
@@ -28,14 +35,14 @@ function Works({ works }) {
         {work.summary ? work.summary : "resumé du poste"}
         </div>
         <div className="year">
-    {moisFrancais[new Date(work.startDate).getMonth()] + " " + new Date(work.startDate).getFullYear()} - 
+    {(language === "fr" ? moisFrancais[new Date(work.startDate).getMonth()] : moisAnglais[new Date(work.startDate).getMonth()]) + " " + new Date(work.startDate).getFullYear()} - { " " } 
     {work.endDate === "active" ? 
         (() => {
             const adjustedDate = new Date();
             adjustedDate.setMonth(adjustedDate.getMonth() - 1);
-            return moisFrancais[adjustedDate.getMonth()] + " " + adjustedDate.getFullYear();
+            return (language === "fr" ? moisFrancais[adjustedDate.getMonth()] : moisAnglais[adjustedDate.getMonth()]) + " " + adjustedDate.getFullYear();
         })() : 
-        moisFrancais[new Date(work.endDate).getMonth()] + " " + new Date(work.endDate).getFullYear()
+        (language === "fr" ? moisFrancais[new Date(work.endDate).getMonth()] : moisAnglais[new Date(work.endDate).getMonth()]) + " " + new Date(work.endDate).getFullYear()
     }
 </div>
 
@@ -46,10 +53,10 @@ function Works({ works }) {
         <div className="profession">{work.position}</div>
         <div className="description">
           
-          <div className="highlights">Faits marquants</div>
+          <div className="highlights">{language === "fr" ? "Faits marquants" : "Highlights"}</div>
           <ul className="list-group">
             {
-                work.highlights.map((element) =>  <li className="list-group-item">{element}</li>)
+                work.highlights.map((element,index) =>  <li key={index} className="list-group-item">{element}</li>)
             }
             
           </ul>
