@@ -8,7 +8,7 @@
         "website": "https://tech.beatitude973.fr/",
         "summary": "Passionné de technologies et de voyages, lors de mon premier emploi il y a 10 ans en tant que responsable d'agence, j'ai travaillé avec de nombreux indépendants.Cette expérience m'a permise d'affiner ma vision du travail et à faire le lien avec mes passions de toujours. J'ai réalisé dans cette optique des sites internet et des campagnes de marketing digitales qui m'ont amenés à prendre la décision de me professionnaliser en 2019 et à m'orienter vers une formation dans le développement web.",
         "location": {
-            "address": "Impasse ,Saramaka",
+            "address": "Impasse Saramaka",
             "postalCode": "97300 GF",
             "city": "Cayenne",
             "countryCode": "French Guiana"
@@ -36,7 +36,7 @@
             "city": "Cayenne",
             "summary": "Etudes, amélioration et évolution des process et systèmes d'informations existants...",
             "highlights": [
-                "Refactorisation des process d'extractions de la données commerciale par le biais de Dataflow de type ETL afin de faciliter l'accès à la donnée aux différents services.",
+                "Refactorisation des process d'extractions des données commerciales par le biais de Dataflow de type ETL afin de mettre à disposition la donnée aux différents services.",
                 "Création d'un tableau de bord e-commerce ",
                 "Création de tableau de bord sous Power Bi pour les ventes, le recouvrement, et les achats",
                 "Création d'un processus de numérisation des factures et OCR lié à un algorithme qui classe les factures et les envoi à dates automatiquement aux clients",

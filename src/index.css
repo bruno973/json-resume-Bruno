@@ -26,6 +26,14 @@ print-color-adjust: exact;
 }
 
 
+  #langbar {
+    display: none;
+    /* autres règles pour l'impression */
+  }
+
+
+
+
 
 a[href]:after {
   content: none !important;
